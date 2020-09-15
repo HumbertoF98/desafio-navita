@@ -2,68 +2,85 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   height: 100%;
-  label {
-    display: none;
-  }
-  @media (max-width: 700px) {
-    padding-bottom: 30px;
-  }
-  select {
-    @media (max-width: 700px) {
-      width: 284px;
-    }
-  }
-  h2 {
-    text-align: center;
+  padding: 30px;
+
+  h1 {
+    color: #5a5c69;
     font-weight: 600;
-    margin-top: 10px;
-    max-width: 600px;
-    @media (max-width: 700px) {
-      margin-top: 30px;
-    }
   }
-  h4 {
-    text-align: center;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 600px;
-    text-align: justify;
-    margin: 20px;
-  }
-  h5 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 600px;
-    text-align: justify;
-    margin: 10px;
-    @media (max-width: 700px) {
-      margin-bottom: 0;
-      margin-top: 5px;
-      margin: 10px;
-    }
-  }
-  input {
-    margin-top: 10px;
-    @media (max-width: 700px) {
-      margin-top: 20px;
-    }
-  }
+
   button {
-    margin-top: 10px;
-    @media (max-width: 700px) {
-      width: 284px;
-      margin-top: 20px;
-    }
   }
   button:disabled,
   button[disabled] {
     border: none;
     background-color: #4e73df;
+  }
+`;
+
+export const ContainerTable = styled.div`
+  border: 1px solid #e3e6f0;
+  box-shadow: 3px 3px 5px rgba(58, 59, 69, 0.15);
+  background: #fff;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+
+  /*
+css for tables
+ */
+  table {
+    padding: 20px;
+    width: 100%;
+    tr:nth-child(n + 2) {
+      border-top: 1px solid #e3e6f0;
+    }
+    tr:hover {
+      background: #f5f5f5;
+    }
+    th {
+      border-top: 1px solid #e3e6f0;
+      border-bottom: 2px solid #e3e6f0;
+      padding: 15px 15px 15px 10px;
+      color: #5a5c69;
+      font-weight: bold;
+      text-align: left;
+      flex: 1;
+    }
+    tr {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      td:nth-child(even) {
+        color: #4e73df;
+        cursor: pointer;
+      }
+    }
+    td {
+      width: 100%;
+      padding: 10px;
+      color: #5a5c69;
+      font-weight: 600;
+      text-align: left;
+      flex: 1;
+      opacity: 0.9;
+      height: 70px;
+      align-items: center;
+      display: flex;
+    }
+  }
+`;
+
+export const HeaderContainerTable = styled.div`
+  background: #f8f9fc;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  border: 1px solid #e3e6f0;
+
+  h4 {
+    color: #4e73df;
   }
 `;

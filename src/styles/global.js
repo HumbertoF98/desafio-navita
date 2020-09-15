@@ -25,7 +25,6 @@ body {
 }
 body, input button {
   font: 14px Montserrat;
-  font-weight: 600;
 }
 a {
   text-decoration: none;

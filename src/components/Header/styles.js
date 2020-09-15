@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background: #fff;
   padding: 0 30px;
+  box-shadow: 3px 3px 5px rgba(58, 59, 69, 0.15);
 `;
 
 export const Content = styled.div`
@@ -12,8 +13,8 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  p {
+  h2 {
     color: #1cc88a;
-    font-size: 24px;
+    font-weight: 600;
   }
 `;
