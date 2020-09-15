@@ -8,6 +8,8 @@
 
 ## Sobre o projeto
 
+O projeto consiste em listar modelos de carros com base em uma API da tabela FIPE.
+
 ## Tecnologias Utilizadas
 
 - <a href="https://reactjs.org/" target="_blank" rel="noopener">ReactJs</a>
