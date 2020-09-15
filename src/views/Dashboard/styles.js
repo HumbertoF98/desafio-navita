@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
   padding: 30px;
 
   h1 {
@@ -32,7 +31,7 @@ export const ContainerTable = styled.div`
 css for tables
  */
   table {
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
     width: 100%;
     tr:nth-child(n + 2) {
       border-top: 1px solid #e3e6f0;
