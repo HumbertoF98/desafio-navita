@@ -12,6 +12,7 @@ O projeto consiste em listar modelos de carros com base em uma API da tabela FIP
 
 ## Tecnologias Utilizadas
 
+- Por ser um teste livre, decidi utilizar o que me sinto mais confortável, o ReactJS.
 - <a href="https://reactjs.org/" target="_blank" rel="noopener">ReactJs</a>
 
 ### Visualização/Utilização
