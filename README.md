@@ -19,6 +19,10 @@ O projeto consiste em listar modelos de carros com base em uma API da tabela FIP
 
 Para utilizar e/ou visualizar o projeto, basta seguir as instruções abaixo:
 
+- Acessar o site https://modelomultimarcas.netlify.app/
+
+Ou
+
 - Que você tenha instalado o **<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>**
 - Que você tenha instalado o **<a href="https://www.npmjs.com/" target="_blank" rel="noopener">NPM</a>**
 
