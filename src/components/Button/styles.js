@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.button`
   flex-direction: row;
-  width: 100px;
   background: transparent;
   align-items: center;
   justify-content: center;

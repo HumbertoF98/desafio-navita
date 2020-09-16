@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, ContainerTable, HeaderContainerTable } from "./styles";
+import Button from "../../components/Button";
 
 // api
 import api from "../../services/api";
@@ -46,8 +47,10 @@ export default function Dashboard() {
             {cars.map((car) => (
               <tr key={car.codigo}>
                 <td>{car.nome}</td>
-                <td onClick={() => loadCarModels(car.codigo, car.nome)}>
-                  Ver modelos
+                <td>
+                  <Button onClick={() => loadCarModels(car.codigo, car.nome)}>
+                    Ver modelos
+                  </Button>
                 </td>
               </tr>
             ))}

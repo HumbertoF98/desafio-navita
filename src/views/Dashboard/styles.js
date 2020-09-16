@@ -26,7 +26,11 @@ export const ContainerTable = styled.div`
   width: 100%;
   margin-top: 30px;
   border-radius: 5px;
-
+  button:focus {
+    p {
+      color: #1cc88a;
+    }
+  }
   /*
 css for tables
  */
@@ -52,10 +56,6 @@ css for tables
       align-items: center;
       display: flex;
       flex-direction: row;
-      td:nth-child(even) {
-        color: #4e73df;
-        cursor: pointer;
-      }
     }
     td {
       width: 100%;
